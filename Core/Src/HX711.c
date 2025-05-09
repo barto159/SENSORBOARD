@@ -180,7 +180,7 @@ void init_weight(hx711_t *hx711){
 	set_gain(hx711, 128, 32);
 
 	/* Set HX711 scaling factor (see README for procedure) */
-	set_scale(hx711, 1, 1);
+	set_scale(hx711, 1718, 1718);
 
 	/* Tare weight */
 	tare_all(hx711, 10);
