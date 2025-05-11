@@ -56,7 +56,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 hx711_t hx;
-float weight=0;
+float weight;
 /* USER CODE END 0 */
 
 /**
